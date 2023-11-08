@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Vanila CSS -->
+    <link rel="stylesheet" href="./assets/about_teams-css/about.css">
+
+<!-- Link to the Font Awesome icon library CSS file -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">  
+
+<!-- css for footer -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+
+<!-- javascript plugins for footer -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Meet the Team</title>
+    <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .team-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 50px;
+    }
+
+    .team-member {
+      margin-bottom: 20px;
+    }
+
+    .team-member img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+    }
+
+    .team-member h3 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .team-member p {
+      font-size: 16px;
+    }
+
+    .team-member a {
+      color: #007bff;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<header>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+        <a class="navbar-brand" href="#"></a>
+        <i class="fas fa-home"></i>
+        <button class="navbar-toggler" type="button" data-toggle="collapseand data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="./about-page.html">About</a>
+            </li>
+            <li class="nav-item dropdown active">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <button class="nav-link btn btn-link text-white" onclick="downloadResume()">Download CV</button>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+</header>
+<body>
+  <div class="team-container">
+    <h1>Meet the Team</h1>
+
+    <div class="team-member">
+      <img src="./assets/images/Day-bolga.jpg" alt="Damien">
+      <h3>Damien N Ayine</h3>
+      <p>Software Engineer</p>
+      <a href="https://github.com/johndoe">GitHub</a>
+    </div>
+
+    <div class="team-member">
+      <img src="/assets/images/teddy.jpg" alt="Amit">
+      <h3>Amit Kumar</h3>
+      <p>UX Designer</p>
+      <a href="https://twitter.com/janedoe">Twitter</a>
+    </div>
+
+    <div class="team-member">
+      <img src="/assets/images/shirt.jpg" alt="Sanoj">
+      <h3>Sanoj Yadav</h3>
+      <p>Marketing Manager</p>
+      <a href="https://www.linkedin.com/in/peterjones/">LinkedIn</a>
+    </div>
+  </div>
+    <!--Structuring the footer -->
+    <footer>
+        <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h3>Follow us on social media</h3>
+            <ul class="social-icons">
+              <li><a href="https://github.com"><i class="fab fa-github"></i></a></li>
+              <li><a href="https://linkedin.com"><i class="fab fa-linkedin"></i></a></li>
+              <li><a href="https://facebook.com"><i class="fab fa-facebook"></i></a></li>
+              <li><a href="https://twitter.com"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="https://instagram.com"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h3>Contact us</h3>
+            <p><a href="http://"></a> Phone: +233 540564567</p>
+            <p>Email: psycaro20@gmail.com</p>
+          </div>
+          <div class="col-md-4">
+            <p>&copy; 2023 PsyCaTech. All rights reserved.</p>
+          </div>
+    </footer> 
+</body>
+</html>
