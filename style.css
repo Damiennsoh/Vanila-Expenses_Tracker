@@ -178,3 +178,7 @@ nav a {
   padding: 5px 10px;
   border-radius: 3px;
 }
+
+@media only screen and (max-width: 600px) {
+  /* CSS styles for small screens */
+  }
