@@ -8,8 +8,8 @@
     flex-grow: 1;
   }
 .container{
-    background-color: orange;
-    color: #fff;
+    background-color: rgb(226, 218, 204);
+    /* color: #fff; */
     text-align: center;
     padding: 10px;
     left: 0;
@@ -29,3 +29,15 @@ footer a{
 @media only screen and (max-width: 600px) {
     /* CSS styles for small screens */
     }
+
+/* Social media icon styles */
+.social-icons {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.social-icons li {
+  display: inline-block;
+  margin-right: 10px;
+}
