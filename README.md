@@ -1,6 +1,29 @@
-## Vanila Expense Tracker
+# Vanila Expense Tracker
 
-Keep track of income and expenses. Add and remove items and save to local storage
+## Description
+
+This is an Expenses Tracker built using JavaScript, HTML and CSS. It is used to keep track of income and expenses, add and remove items and save to local storage.
+
+## Installation
+
+This application does n\*ot require traditional installation, just git clone it to your PC and launch the application using the index.html file or through VS Code by employing live server extension to launch the application to your browser for you.
+
+## Licence
+
+Refer to the MIT license within the repository
+
+## Technologies Used
+
+- Version Controls(Github)
+- Programming Languages (JavaScript, HTML, CSS)
+- Frameworks (Bootstrap 4.0)
+
+## Developers
+
+- Damien N. Ayine
+- Amit Kumar
+- Sanoj Yadav
 
 ## Deployed Link
+
 https://damiennsoh.github.io/Vanila-Expenses_Tracker/
