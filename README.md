@@ -22,6 +22,14 @@ Refer to the MIT license within the repository
 
 ![image](https://github.com/Damiennsoh/Vanila-Expenses_Tracker/blob/main/assets/screenshots/Architecture.jpg)
 
+## Homepage Screenshot
+
+![image](https://github.com/Damiennsoh/Vanila-Expenses_Tracker/blob/main/assets/screenshots/Expenses-tracker_sample.jpg)
+
+## JS Code Snippet:
+
+![image](https://github.com/Damiennsoh/Vanila-Expenses_Tracker/blob/main/assets/screenshots/JS-code%20snippet.jpg)
+
 ## Developers:
 
 - Damien N. Ayine
