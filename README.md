@@ -18,11 +18,15 @@ Refer to the MIT license within the repository
 - Programming Languages (JavaScript, HTML, CSS)
 - Frameworks (Bootstrap 4.0)
 
-## Developers
+## Architecture:
+
+![image](https://github.com/Damiennsoh/Vanila-Expenses_Tracker/blob/main/assets/screenshots/Architecture.jpg)
+
+## Developers:
 
 - Damien N. Ayine
 - Amit Kumar
-- Sanoj Yadav
+- Sanoj Kumar Yadav
 
 ## Deployed Link
 
